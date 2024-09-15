@@ -18,7 +18,7 @@ const seedDatabase = async () => {
 
     // Insert sample users
     const users = await User.insertMany([
-        { name: 'Alice', email: 'alice@example.com', password: 'password123' },
+        { name: 'Amaya', email: 'amaya@example.com', password: 'password123' },
         { name: 'Bob', email: 'bob@example.com', password: 'password123' },
         { name: 'Charlie', email: 'charlie@example.com', password: 'password123' },
         { name: 'David', email: 'david@example.com', password: 'password123' },
