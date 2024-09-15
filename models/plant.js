@@ -8,7 +8,7 @@ const plantSchema = new mongoose.Schema({
   user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }
 }, { timestamps: true });
 
-plantSchema.index({ name: 1 }); // Index on name for quick lookups
+plantSchema.index({ name: 1 }); 
 
 const Plant = mongoose.model('Plant', plantSchema);
 export default Plant;
